@@ -201,7 +201,7 @@ button:hover {
 }
 
 #hero-box > img {
-  width: 400px;
+  width: 700px;
 }
 
 /*-- slogan --*/
@@ -442,4 +442,10 @@ button:hover {
 
 .ban_img {
   width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .abt {
+    display: none;
+  }
 }
